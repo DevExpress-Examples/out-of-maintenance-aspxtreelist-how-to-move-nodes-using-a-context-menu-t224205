@@ -3,7 +3,7 @@
 
 * [CallbackException.cs](./CS/App_Code/CallbackException.cs) (VB: [CallbackException.vb](./VB/App_Code/CallbackException.vb))
 * **[Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))**
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx](./VB/Default.aspx))
+* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxTreeList - How to move nodes using a context menu
 
