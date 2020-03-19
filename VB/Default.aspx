@@ -16,7 +16,7 @@
             background-color:  lightblue;
         }
     </style>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script>
         function OnCallbackError(s, e) {
            // if (e.message == "You're trying to move a parent node to its child") - uncomment this line to reset styles only in certain cases
