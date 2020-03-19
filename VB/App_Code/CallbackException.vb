@@ -7,9 +7,10 @@ Imports System.Web
 ''' Summary description for CallbackException
 ''' </summary>
 Public Class CallbackException
-    Inherits Exception
+	Inherits Exception
 
-    Public Sub New(ByVal message As String)
-        MyBase.New(message)
-    End Sub
+'INSTANT VB NOTE: The variable message was renamed since Visual Basic does not handle local variables named the same as class members well:
+	Public Sub New(ByVal message_Conflict As String)
+		MyBase.New(message_Conflict)
+	End Sub
 End Class

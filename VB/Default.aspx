@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <%@ Register Assembly="DevExpress.Dashboard.v14.2.Web, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.DashboardWeb" TagPrefix="dx" %>
 
@@ -21,7 +21,7 @@
         function OnCallbackError(s, e) {
            // if (e.message == "You're trying to move a parent node to its child") - uncomment this line to reset styles only in certain cases
                 myCallback = false;
-
+            
         }
         var myCallback = false;
         function OnBeginCallback(s, e) {
@@ -45,7 +45,7 @@
             currentNodeKey = nodeKey;
             var menu = ASPxClientPopupMenu.Cast(clientPopupMenu);
             menu.GetItemByName("paste").SetEnabled(copyNodeKey != null);
-
+           
         }
         function OnEndCallback(s, e) {
             if (myCallback) {
@@ -74,7 +74,7 @@
                         }
                         var parameter = currentNodeKey + ";" + copyNodeKey;
                         clientTreeList.PerformCallback(parameter);
-
+                       
                         break;
                     }
             }
@@ -96,7 +96,7 @@
                 </dx:TreeListDataColumn>
             </Columns>
             <ClientSideEvents BeginCallback="OnBeginCallback" CallbackError="OnCallbackError" EndCallback="OnEndCallback" ContextMenu="function(s, e) {
-            OnContextMenu(s,e);
+	        OnContextMenu(s,e);
          }" />
         </dx:ASPxTreeList>
         <dx:ASPxPopupMenu ID="ASPxPopupMenu1" runat="server" ClientInstanceName="clientPopupMenu">
