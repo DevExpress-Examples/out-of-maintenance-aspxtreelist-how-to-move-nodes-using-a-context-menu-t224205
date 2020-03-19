@@ -6,7 +6,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VB", ".", "{E7100136-FDA4-4
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/WebSite"
-		Debug.AspNetCompiler.PhysicalPath = "..\VB\"
+		Debug.AspNetCompiler.PhysicalPath = "."
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
@@ -20,7 +20,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VB", ".", "{E7100136-FDA4-4
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "2101"
-		SlnRelativePath = "..\VB\"
 	EndProjectSection
 EndProject
 Global
