@@ -99,6 +99,7 @@
 	        OnContextMenu(s,e);
          }" />
         </dx:ASPxTreeList>
+	    
         <dx:ASPxPopupMenu ID="ASPxPopupMenu1" runat="server" ClientInstanceName="clientPopupMenu">
             <Items>
                 <dx:MenuItem Name="cut" Text="Cut">
